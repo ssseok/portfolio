@@ -1,7 +1,7 @@
 import React from "react";
 import Lottie from "react-lottie-player";
-import lottieJson from "/public/project-animation.json";
+import lottieJson from "/public/404-animation.json";
 
-export default function Animation() {
+export default function Error() {
   return <Lottie loop animationData={lottieJson} play />;
 }

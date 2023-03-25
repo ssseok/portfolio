@@ -1,20 +1,16 @@
 import Layout from "@/components/layout";
 import type { NextPage } from "next";
-import Head from "next/head";
+
 import axios from "axios";
 import { IProjectProps, IProjects } from "@/types/project";
 import ProjectItem from "@/components/projects/project-item";
+import Seo from "@/components/seo";
 
 const Projects: NextPage = ({ project }: IProjectProps) => {
   console.log(project);
   return (
     <Layout>
-      <Head>
-        <title>프로젝트</title>
-        <meta name="description" content="프로젝트" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Seo title="Projects" content="Projects" />
       {project.map((aProject: IProjects) => (
         <ProjectItem key={aProject.id} data={aProject} />
       ))}

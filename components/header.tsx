@@ -4,7 +4,7 @@ import DarkModeToggleButton from "./dark-mode-toggle-button";
 export default function Header() {
   return (
     <>
-      <header className="text-gray-600 body-font">
+      <header className="text-gray-600 body-font sticky top-0 z-50 bg-white">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <Link
             href="/"
@@ -29,7 +29,7 @@ export default function Header() {
               Home
             </Link>
             <Link href="/about-me" className="mr-5 hover:text-gray-900">
-              About Me
+              About
             </Link>
             <Link href="/projects" className="mr-5 hover:text-gray-900">
               Projects
