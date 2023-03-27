@@ -8,10 +8,10 @@ interface ILayout {
 
 export default function Layout({ children }: ILayout) {
   return (
-    <>
+    <div className="bg-primary">
       <Header />
       <div>{children}</div>
       <Footer />
-    </>
+    </div>
   );
 }

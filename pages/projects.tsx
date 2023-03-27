@@ -7,13 +7,19 @@ import ProjectItem from "@/components/projects/project-item";
 import Seo from "@/components/seo";
 
 const Projects: NextPage = ({ project }: IProjectProps) => {
-  console.log(project);
   return (
     <Layout>
       <Seo title="Projects" content="Projects" />
-      {project.map((aProject: IProjects) => (
-        <ProjectItem key={aProject.id} data={aProject} />
-      ))}
+      <h1 className="text-4xl sm:text-6xl py-5 flex justify-center ">
+        <span>total&nbsp;</span>
+        <span>{project.length}</span>
+        <span>&nbsp;project</span>
+      </h1>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 py-10 sm:w-full ">
+        {project.map((aProject: IProjects) => (
+          <ProjectItem key={aProject.id} data={aProject} />
+        ))}
+      </div>
     </Layout>
   );
 };
