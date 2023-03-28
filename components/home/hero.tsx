@@ -1,11 +1,31 @@
 import Link from "next/link";
 import Animation from "./animation";
 import Typical from "react-typical";
+import { motion } from "framer-motion";
 
 export default function Hero() {
+  const box = {
+    initial: {
+      opacity: 0,
+      scale: 0,
+    },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        duration: 1,
+      },
+    },
+    exit: {},
+  };
   return (
     <>
-      <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <motion.div
+        variants={box}
+        initial="initial"
+        animate="visible"
+        className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+      >
         <div className="py-10">
           <p className="text-black dark:text-white text-3xl md:text-5xl">
             안녕하세요!
@@ -53,11 +73,16 @@ export default function Hero() {
             프로젝트 보러가기
           </Link>
         </div>
-      </div>
+      </motion.div>
 
-      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <motion.div
+        variants={box}
+        initial="initial"
+        animate="visible"
+        className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"
+      >
         <Animation />
-      </div>
+      </motion.div>
     </>
   );
 }

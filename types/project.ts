@@ -26,7 +26,7 @@ export interface IProjects {
   };
 
   properties: {
-    Video: {
+    Video?: {
       id: string;
       type: string;
       url: string;
@@ -68,7 +68,7 @@ export interface IProjects {
         time_zone: null;
       };
     };
-    Skills: {
+    Stack: {
       id: string;
       type: string;
       multi_select: [
@@ -76,6 +76,13 @@ export interface IProjects {
           id: string;
           name: string;
           color: string;
+        }
+      ];
+    };
+    Project: {
+      rich_text: [
+        {
+          plain_text: string;
         }
       ];
     };

@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 .grid-element img {
-  @apply object-cover !relative;
+  @apply object-contain !relative;
+}
+
+.project-card {
 }
 
 .bg-primary {

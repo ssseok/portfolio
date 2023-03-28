@@ -5,15 +5,18 @@ import axios from "axios";
 import { IProjectProps, IProjects } from "@/types/project";
 import ProjectItem from "@/components/projects/project-item";
 import Seo from "@/components/seo";
+import Typical from "react-typical";
 
 const Projects: NextPage = ({ project }: IProjectProps) => {
   return (
     <Layout>
       <Seo title="Projects" content="Projects" />
-      <h1 className="text-4xl sm:text-6xl py-5 flex justify-center ">
-        <span>total&nbsp;</span>
-        <span>{project.length}</span>
-        <span>&nbsp;project</span>
+      <h1 className="text-4xl sm:text-6xl py-5 flex justify-center text-slate-800 ">
+        <Typical
+          steps={[`나의 프로젝트`, 2000]}
+          // loop={Infinity}
+          wrapper="strong"
+        />
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 py-10 sm:w-full ">
         {project.map((aProject: IProjects) => (
@@ -40,8 +43,8 @@ export async function getStaticProps() {
     data: {
       sorts: [
         {
-          property: "Name",
-          direction: "ascending",
+          property: "Date",
+          direction: "descending",
         },
       ],
       page_size: 100,
@@ -51,6 +54,7 @@ export async function getStaticProps() {
   const res = await axios.request(options);
   const project = await res.data.results;
   //   const projects = await res.data.results.map((project: IProjects) => project);
+
   return {
     props: { project },
   };
