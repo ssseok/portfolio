@@ -1,19 +1,16 @@
 import { Inter } from "next/font/google";
-import Layout from "@/components/layout";
-import Hero from "@/components/home/hero";
 import Seo from "@/components/seo";
+import Link from "next/link";
+import { animate, motion } from "framer-motion";
+import Main from "@/components/main";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Index() {
   return (
-    <Layout>
-      <Seo title="Portfolio" content="Portfolio" />
-      <section className=" flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <Hero />
-        </div>
-      </section>
-    </Layout>
+    <div className="flex justify-center items-center min-h-screen bg-gray-100">
+      <Seo title="Portfolio" content="Protfolio" />
+      <Main />
+    </div>
   );
 }

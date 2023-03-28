@@ -8,7 +8,13 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        "spin-slow": "spin 6s linear infinite",
+        "spin-slow-2": "spin 4s linear infinite",
+        "spin-slow-3": "spin 10s linear infinite",
+      },
+    },
   },
   plugins: [],
 };
