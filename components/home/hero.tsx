@@ -7,13 +7,13 @@ export default function Hero() {
   const box = {
     initial: {
       opacity: 0,
-      scale: 0,
+      // scale: 0,
     },
     visible: {
       opacity: 1,
-      scale: 1,
+      // scale: 1,
       transition: {
-        duration: 1,
+        duration: 3,
       },
     },
     exit: {},

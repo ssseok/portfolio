@@ -46,18 +46,17 @@ export default function ProjectItem({
   const box = {
     initial: {
       opacity: 0,
-      scale: 0,
     },
     visible: {
       opacity: 1,
       scale: 1,
       transition: {
-        duration: 1,
+        duration: 3,
       },
     },
     exit: {},
     hover: {
-      scale: 1.05,
+      scale: 1.02,
       transition: {
         duration: 1,
       },
@@ -70,7 +69,7 @@ export default function ProjectItem({
       variants={box}
       initial="initial"
       animate="visible"
-      className="flex flex-col m-3 bg-white dark:bg-slate-700 border rounded-t-xl rounded-xl grid-element"
+      className="flex flex-col m-3 bg-violet-100 dark:bg-slate-700 border rounded-t-xl rounded-xl grid-element"
     >
       <a target="_blank" href={link}>
         <Image

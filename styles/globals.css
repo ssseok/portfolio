@@ -10,11 +10,19 @@
 }
 
 .square {
-  @apply relative my-2 w-[300px] h-[300px] flex justify-center items-center  md:w-[400px] md:h-[400px]  hover:bg-black hover:border-none;
+  @apply relative my-2 w-[300px] h-[300px] flex justify-center items-center  md:w-[400px] md:h-[400px];
 }
 
-.circle {
-  @apply hover:border-none hover:bg-black;
+.circle:hover span:nth-child(1) {
+  @apply border-none bg-violet-900;
+}
+
+.circle:hover span:nth-child(2) {
+  @apply border-none bg-violet-900;
+}
+
+.circle:hover span:nth-child(3) {
+  @apply border-none bg-violet-900;
 }
 
 .content {
@@ -22,7 +30,15 @@
 }
 
 .bg-primary {
-  @apply bg-white dark:bg-slate-800;
+  @apply bg-violet-50 dark:bg-slate-800;
+}
+
+.skill-cover {
+  @apply bg-violet-100 rounded flex p-4 m-2 items-center absolute inset-0 object-cover object-center;
+}
+
+.skill-text {
+  @apply opacity-0 hover:opacity-100 relative px-5 py-5 z-10 m-2 border-4 border-gray-200 bg-white flex items-center;
 }
 
 h1,
@@ -39,7 +55,7 @@ a {
 }
 
 footer {
-  @apply bg-gray-100 dark:bg-slate-700;
+  @apply bg-violet-100 dark:bg-slate-700;
 }
 
 p {
@@ -47,9 +63,9 @@ p {
 }
 
 header {
-  @apply bg-gray-100 dark:bg-slate-700;
+  @apply bg-violet-100 dark:bg-slate-700;
 }
 
 button {
-  @apply bg-gray-100 dark:bg-slate-700;
+  @apply bg-violet-100 dark:bg-slate-700;
 }
