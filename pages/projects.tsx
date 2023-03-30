@@ -11,8 +11,8 @@ const Projects: NextPage = ({ project }: IProjectProps) => {
   return (
     <Layout>
       <Seo title="Projects" content="Projects" />
-      <h1 className="text-4xl sm:text-6xl py-5 flex justify-center text-slate-800 ">
-        <Typical steps={[`나의 프로젝트`]} loop={undefined} wrapper="strong" />
+      <h1 className="text-3xl sm:text-5xl py-5 flex justify-center  ">
+        <Typical steps={[`프로젝트`]} loop={undefined} wrapper="strong" />
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 py-10 sm:w-full ">
         {project.map((aProject: IProjects) => (

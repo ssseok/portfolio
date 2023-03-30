@@ -61,7 +61,7 @@ export default function Hero() {
         </div>
         <div className="flex flex-col sm:flex-row gap-2.5 sm:justify-center lg:justify-start">
           <Link
-            href="/projects"
+            href="/about-me"
             className="inline-flex dark:text-white text-white bg-violet-500 border-0 py-2 px-6  focus:outline-none hover:bg-violet-600 rounded text-lg hover:text-white"
           >
             자기소개 보러가기

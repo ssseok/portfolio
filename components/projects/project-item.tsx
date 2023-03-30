@@ -69,7 +69,7 @@ export default function ProjectItem({
       variants={box}
       initial="initial"
       animate="visible"
-      className="flex flex-col m-3 bg-violet-100 dark:bg-slate-700 border rounded-t-xl rounded-xl grid-element"
+      className="flex flex-col m-3 bg-violet-100 dark:bg-slate-700 shadow-xl shadow-violet-200  dark:shadow-slate-500 rounded-t-xl rounded-xl grid-element"
     >
       <a target="_blank" href={link}>
         <Image

@@ -101,13 +101,13 @@ export default function StackItem() {
               좋은 유저 경험을 위한 기능과 디자인에 집중합니다.
             </p>
           </div>
-          <div className="flex flex-wrap lg:w-3/5 md:mx-auto sm:mb-2">
+          <div className="flex flex-wrap lg:w-3/5 md:mx-auto sm:mb-2 ">
             {frontSkillsItem.map((a, idx) => (
               <motion.div
                 variants={box}
                 initial="initial"
                 animate="visible"
-                className="p-2 xl:w-1/2 w-full relative"
+                className="p-2 xl:w-1/2 w-full relative "
                 key={idx}
               >
                 <div className="skill-text">

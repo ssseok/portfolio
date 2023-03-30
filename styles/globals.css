@@ -6,6 +6,14 @@
   @apply object-contain !relative;
 }
 
+.about-card img {
+  @apply object-contain !relative;
+}
+
+.about-h1-text {
+  @apply bg-violet-100 text-2xl rounded-md font-semibold text-center dark:text-white dark:bg-slate-700;
+}
+
 .project-card {
 }
 
@@ -68,4 +76,8 @@ header {
 
 button {
   @apply bg-violet-100 dark:bg-slate-700;
+}
+
+li {
+  @apply text-slate-500 dark:text-slate-400;
 }
