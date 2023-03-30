@@ -165,7 +165,7 @@ export default function StackItem() {
               </motion.div>
             ))}
           </div>
-          <div className="flex flex-col mt-5 sm:flex-row gap-2.5 sm:justify-center lg:justify-start">
+          <div className="flex flex-col sm:flex-row justify-center items-center mt-16 text-center">
             <Link
               href="projects"
               className="inline-flex dark:text-white text-white bg-violet-500 border-0 py-2 px-6 focus:outline-none hover:bg-violet-600 rounded text-lg hover:text-white"
