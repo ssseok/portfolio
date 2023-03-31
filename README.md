@@ -15,10 +15,10 @@
 
 ### 🔧 사용 기술 [FE]
 
-<img src="https://img.shields.io/badge/next.js-#000000?style=for-the-badge&logo=Next.js&logoColor=white">
-<img src="https://img.shields.io/badge/tailwindcss-#06B6D4?style=for-the-badge&logo=TailwindCSS&logoColor=white">
-<img src="https://img.shields.io/badge/typescript-#3178C6?style=for-the-badge&logo=TypeScript&logoColor=white">
-<img src="https://img.shields.io/badge/axios-#5A29E4?style=for-the-badge&logo=Axios&logoColor=white">
+<img src="https://img.shields.io/badge/Next.js-#000000?style=for-the-badge&logo=Next.js&logoColor=white">
+<img src="https://img.shields.io/badge/Tailwind%20CSS-#06B6D4?style=for-the-badge&logo=Tailwind%20CSS&logoColor=white">
+<img src="https://img.shields.io/badge/TypeScript-#3178C6?style=for-the-badge&logo=TypeScript&logoColor=white">
+<img src="https://img.shields.io/badge/Axios-#5A29E4?style=for-the-badge&logo=Axios&logoColor=white">
 
 ## ✨Git Commit & PR Message
 
