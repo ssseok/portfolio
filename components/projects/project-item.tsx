@@ -6,16 +6,18 @@ export default function ProjectItem({
   data: { properties, cover },
 }: IProjectProps) {
   const title = properties.Name.title[0].plain_text;
-  const link = properties.Link?.url;
-  const video = properties.Video?.url;
-  const description = properties.Description?.rich_text[0]?.plain_text;
-  const img = cover.external?.url || cover.file.url;
-  const stack = properties.Stack?.multi_select;
-  const startDate = properties.Date?.date?.start;
-  const endDate = properties.Date?.date?.end;
+  const link = properties.Link.url;
+  const video = properties.Video.url;
+  const description = properties.Description.rich_text[0].plain_text;
+  const img = cover.file?.url || cover.external.url;
+  const stack = properties.Stack.multi_select;
+  const startDate = properties.Date.date.start;
+  const endDate = properties.Date.date.end;
   const project = properties.Project.rich_text[0].plain_text;
-  const git = properties.Git?.url;
+  const git = properties.Git.url;
   const notion = properties.Notion?.url;
+
+  console.log(img);
 
   const calculatedPeriod = (start: any, end: any) => {
     // 받아온 start, end 인자들 데이터 값을 보면 ****-**-** 으로 되어있어 split으로 - 뺀 나머지를 배열로 만든다.
@@ -38,7 +40,6 @@ export default function ProjectItem({
     // 지나간 시간(end) 시작된 시간(start) 계산
     const diffInMs = Math.abs(endDate - startDate);
     const result = diffInMs / (1000 * 60 * 60 * 24);
-    console.log(result);
 
     return result;
   };
