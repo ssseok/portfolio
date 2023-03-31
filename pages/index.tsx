@@ -1,7 +1,5 @@
 import { Inter } from "next/font/google";
 import Seo from "@/components/seo";
-import Link from "next/link";
-import { animate, motion } from "framer-motion";
 import Main from "@/components/main";
 
 const inter = Inter({ subsets: ["latin"] });

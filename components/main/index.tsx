@@ -2,33 +2,27 @@ import Link from "next/link";
 
 export default function Main() {
   return (
-    <div
-      //   style={{
-      //     borderRadius: "32% 58% 69% 43% / 48% 32% 59% 55%",
-      //     transition: "0.5s",
-      //   }}
-      className="square circle"
-    >
+    <div className="square circle">
       <span
         style={{
           borderRadius: "32% 58% 69% 43% / 48% 32% 59% 55%",
           transition: "0.5s",
         }}
-        className="absolute top-0 left-0 w-full h-full border-violet-900 border-2 animate-spin-slow "
+        className="main-animation animate-spin-slow "
       ></span>
       <span
         style={{
           borderRadius: "38% 62% 63% 37% / 41% 44% 56% 59%",
           transition: "0.5s",
         }}
-        className="absolute top-0 left-0 w-full h-full border-violet-900 border-2  animate-spin-slow-2 "
+        className="main-animation animate-spin-slow-2 "
       ></span>
       <span
         style={{
           borderRadius: "38% 62% 63% 37% / 41% 44% 56% 59%",
           transition: "0.5s",
         }}
-        className="absolute top-0 left-0 w-full h-full border-violet-900 border-2 animate-spin-slow-3 "
+        className="main-animation animate-spin-slow-3 "
       ></span>
       <div
         style={{

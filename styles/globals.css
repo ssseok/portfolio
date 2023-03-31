@@ -34,6 +34,10 @@
   @apply inline-flex dark:text-white text-white bg-violet-500 border-0 py-2 px-6 focus:outline-none hover:bg-violet-600 rounded text-lg hover:text-white;
 }
 
+.main-animation {
+  @apply absolute top-0 left-0 w-full h-full border-violet-900 border-2;
+}
+
 .contack-animation {
   @apply text-gray-900 font-medium text-xl hover:underline transition duration-300 transform 
   hover:scale-[1.02] hover:text-violet-600  dark:hover:text-violet-400;
