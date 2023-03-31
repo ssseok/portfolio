@@ -1,6 +1,6 @@
 # **<p align="center"><span style="color:#23C8AF"> 박현석 포트폴리오 사이트입니다. </span></p>**
 
-<p align="center"><a href="portfolio-ssseok.vercel.app">박현석 포트폴리오</a></p>
+<p align="center"><a href="https://portfolio-ssseok.vercel.app/">박현석 포트폴리오</a></p>
 <!-- <p align="center"><img src="https://user-images.githubusercontent.com/87220944/215426799-10b2114f-8015-489f-a306-08e2f11e2cac.jpg" height="500"></img></p> -->
 
 ## 📅 제작기간
