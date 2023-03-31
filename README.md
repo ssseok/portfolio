@@ -1,7 +1,7 @@
-# **<p align="center"><span style="color:#23C8AF">포트폴리오 사이트 </br> 박현석 포트폴리오 사이트입니다. </span></p>**
+# **<p align="center"><span style="color:#23C8AF"> 박현석 포트폴리오 사이트입니다. </span></p>**
 
-<p align="center"><a href="http://whystay.p-e.kr/">박현석 포트폴리오</a></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/87220944/215426799-10b2114f-8015-489f-a306-08e2f11e2cac.jpg" height="500"></img></p>
+<p align="center"><a href="portfolio-ssseok.vercel.app">박현석 포트폴리오</a></p>
+<!-- <p align="center"><img src="https://user-images.githubusercontent.com/87220944/215426799-10b2114f-8015-489f-a306-08e2f11e2cac.jpg" height="500"></img></p> -->
 
 ## 📅 제작기간
 
@@ -9,16 +9,16 @@
 
 ## 💃 팀원소개 🕺
 
-## 👨🏻‍💻 Front-end (React) <a href="https://github.com/ssseok/portfolio"><img src="https://img.shields.io/badge/GitHub-000000?style=flat&logo=GitHub&logoColor=white&link=https://github.com/spacejay1007/plogging_FE"/></a>
+## 👨🏻‍💻 Front-end <a href="https://github.com/ssseok/portfolio"><img src="https://img.shields.io/badge/GitHub-000000?style=flat&logo=GitHub&logoColor=white&link=https://github.com/spacejay1007/plogging_FE"/></a>
 
 - 박현석 🤵🏻
 
 ### 🔧 사용 기술 [FE]
 
-<img src="https://img.shields.io/badge/Next.js-#000000?style=for-the-badge&logo=Next.js&logoColor=white">
-<img src="https://img.shields.io/badge/TailwindCSS-#06B6D4?style=for-the-badge&logo=TailwindCSS&logoColor=white">
-<img src="https://img.shields.io/badge/TypeScript-#3178C6?style=for-the-badge&logo=TypeScript&logoColor=white">
-<img src="https://img.shields.io/badge/Axios-#5A29E4?style=for-the-badge&logo=Axios&logoColor=white">
+<img src="https://img.shields.io/badge/next.js-#000000?style=for-the-badge&logo=Next.js&logoColor=white">
+<img src="https://img.shields.io/badge/tailwindcss-#06B6D4?style=for-the-badge&logo=TailwindCSS&logoColor=white">
+<img src="https://img.shields.io/badge/typescript-#3178C6?style=for-the-badge&logo=TypeScript&logoColor=white">
+<img src="https://img.shields.io/badge/axios-#5A29E4?style=for-the-badge&logo=Axios&logoColor=white">
 
 ## ✨Git Commit & PR Message
 
