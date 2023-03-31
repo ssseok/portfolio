@@ -20,6 +20,17 @@
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white">
 <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white">
 
+## 🧐 **트러블 슈팅**
+
+<details>
+<summary>트러블 슈팅</summary>
+<div markdown="1">
+
+https://delicate-credit-20c.notion.site/Error-cbbed15990c546439894856b668ba771
+
+</div>
+</details>
+
 ## ✨Git Commit & PR Message
 
 | 태그이름 | 설명                                                  |
