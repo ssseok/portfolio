@@ -8,7 +8,7 @@ const Stack: NextPage = () => {
   return (
     <Layout>
       <Seo title="Stack" content="Stack" />
-      <h1 className=" text-3xl sm:text-5xl py-5 flex justify-center  ">
+      <h1 className="typical">
         <Typical steps={[`기술스택`]} loop={undefined} wrapper="strong" />
       </h1>
       <StackItem />

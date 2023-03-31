@@ -2,21 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.grid-element img {
-  @apply object-contain !relative;
-}
-
-.about-card img {
-  @apply object-contain !relative;
-}
-
-.about-h1-text {
-  @apply bg-violet-100 text-2xl rounded-md font-semibold text-center dark:text-white dark:bg-slate-700;
-}
-
-.project-card {
-}
-
 .square {
   @apply relative my-2 w-[300px] h-[300px] flex justify-center items-center  md:w-[400px] md:h-[400px];
 }
@@ -35,6 +20,42 @@
 
 .content {
   @apply relative px-10 py-16 text-white dark:text-white text-center z-50;
+}
+
+.typical {
+  @apply text-3xl sm:text-5xl py-5 flex justify-center;
+}
+
+.toggle-btn {
+  @apply inline-flex items-center text-slate-500 bg-violet-100 border-0 py-1 px-3 focus:outline-none hover:text-yellow-500 dark:hover:text-orange-500 rounded text-base mt-4 md:mt-0;
+}
+
+.link-btn {
+  @apply inline-flex dark:text-white text-white bg-violet-500 border-0 py-2 px-6 focus:outline-none hover:bg-violet-600 rounded text-lg hover:text-white;
+}
+
+.contack-animation {
+  @apply text-gray-900 font-medium text-xl hover:underline transition duration-300 transform 
+  hover:scale-[1.02] hover:text-violet-600  dark:hover:text-violet-400;
+}
+
+.contack-svg-box {
+  @apply w-12 h-12 inline-flex items-center justify-center rounded-full bg-violet-200 text-violet-700 dark:text-violet-800;
+}
+
+.grid-element img {
+  @apply object-contain !relative;
+}
+
+.about-card img {
+  @apply object-contain !relative;
+}
+
+.about-h1-text {
+  @apply bg-violet-100 text-2xl rounded-md font-semibold text-center dark:text-white dark:bg-slate-700;
+}
+
+.project-card {
 }
 
 .bg-primary {

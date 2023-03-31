@@ -60,16 +60,10 @@ export default function Hero() {
           </p>
         </div>
         <div className="flex flex-col sm:flex-row gap-2.5 sm:justify-center lg:justify-start">
-          <Link
-            href="/about-me"
-            className="inline-flex dark:text-white text-white bg-violet-500 border-0 py-2 px-6  focus:outline-none hover:bg-violet-600 rounded text-lg hover:text-white"
-          >
+          <Link href="/about-me" className="link-btn">
             자기소개 보러가기
           </Link>
-          <Link
-            href="/projects"
-            className="inline-flex dark:text-white text-white bg-violet-500 border-0 py-2 px-6 focus:outline-none hover:bg-violet-600 rounded text-lg hover:text-white"
-          >
+          <Link href="/projects" className="link-btn">
             프로젝트 보러가기
           </Link>
         </div>

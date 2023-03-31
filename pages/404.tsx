@@ -13,10 +13,7 @@ const PageNotFound: NextPage = () => {
         <p className="text-lg  mb-3">
           입력하신 페이지의 주소가 정확한지 다시 확인해주세요.
         </p>
-        <Link
-          href="/"
-          className="dark:text-white mb-3 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-        >
+        <Link href="/" className="link-btn">
           메인 바로가기
         </Link>
       </div>

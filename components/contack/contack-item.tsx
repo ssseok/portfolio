@@ -28,7 +28,7 @@ export default function ContackItem() {
         </div>
         <div className="flex flex-col flex-wrap -mb-10 lg:text-left text-center">
           <div className="flex mb-5 items-center flex-row justify-between">
-            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-violet-200 text-violet-700 dark:text-violet-800">
+            <div className="contack-svg-box">
               <svg
                 width="20"
                 height="20"
@@ -48,18 +48,13 @@ export default function ContackItem() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <h2
-                  className="text-gray-900 font-medium text-xl hover:underline transition duration-300 transform 
-                    hover:scale-[1.02] hover:text-violet-600 dark:hover:text-violet-400"
-                >
-                  luckseok1@gmail.com
-                </h2>
+                <h2 className="contack-animation">luckseok1@gmail.com</h2>
               </a>
             </div>
           </div>
 
           <div className="flex mb-5 items-center flex-row">
-            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-violet-200 text-violet-700  dark:text-violet-800">
+            <div className="contack-svg-box">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -76,17 +71,12 @@ export default function ContackItem() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h2
-                  className="text-gray-900 font-medium text-xl hover:underline transition duration-300 transform 
-                    hover:scale-[1.02] hover:text-violet-600 dark:hover:text-violet-400"
-                >
-                  깃허브 바로가기
-                </h2>
+                <h2 className="contack-animation">깃허브 바로가기</h2>
               </a>
             </div>
           </div>
           <div className="flex mb-5 items-center flex-row">
-            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-violet-200 text-violet-700  dark:text-violet-800">
+            <div className="contack-svg-box">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -103,17 +93,12 @@ export default function ContackItem() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h2
-                  className="text-gray-900 font-medium text-xl hover:underline transition duration-300 transform 
-                    hover:scale-[1.02] hover:text-violet-600  dark:hover:text-violet-400"
-                >
-                  블로그 바로가기
-                </h2>
+                <h2 className="contack-animation">블로그 바로가기</h2>
               </a>
             </div>
           </div>
           <div className="flex mb-5 items-center flex-row">
-            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-violet-200 text-violet-700  dark:text-violet-800">
+            <div className="contack-svg-box">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -130,12 +115,7 @@ export default function ContackItem() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <h2
-                  className="text-gray-900 font-medium text-xl hover:underline transition duration-300 transform 
-                    hover:scale-[1.02] hover:text-violet-600 dark:hover:text-violet-400"
-                >
-                  링크드인 바로가기
-                </h2>
+                <h2 className="contack-animation">링크드인 바로가기</h2>
               </a>
             </div>
           </div>
