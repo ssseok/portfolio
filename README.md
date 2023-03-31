@@ -26,7 +26,7 @@
 <summary>트러블 슈팅</summary>
 <div markdown="1">
 
-https://delicate-credit-20c.notion.site/Error-cbbed15990c546439894856b668ba771
+https://luckseok.tistory.com/category/Error%20Issue/Portfolio
 
 </div>
 </details>
